@@ -6,9 +6,9 @@ function App4Main03({foodName, foodDetail}) {
   // let foodDetail = props.foodDetail;
   return (
     <div className={"col-sm-6"}>
-      {/*<p id={"foodName"}>{foodName}</p>*/}
-      {/*<p id={"foodDetail"}>{foodDetail}</p>*/}
-      <App4Main03Item/>
+      <h5 id={"foodName"}><b>{foodName}</b></h5>
+      <p id={"foodDetail"}>{foodDetail}</p>
+      {/*<App4Main03Item/>*/}
     </div>
   );
 }
