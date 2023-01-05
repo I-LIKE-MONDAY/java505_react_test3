@@ -24,7 +24,7 @@ function Accommodate(props) {
     console.log("====================");
     console.log("useEffect() is called");
     console.log(`isFull : ${isFull}`);
-  }, []);
+  },);
 
   // 의존성 배열에 count 를 설정하여 count 값이 수정되면 componentDidUpdate 를 실행하는 것과 같은 효과 발생
   useEffect(() => {
